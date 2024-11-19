@@ -1,0 +1,130 @@
+* { 
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    /*SEMPRE Q COMEÇAR O PROJETO USAR ESSAS TEGS * */
+
+main {
+    width: 50vh;
+    height: 50vw;
+}
+
+.cont-esq {
+    display: inline-block;
+    width: 1900%;
+    height: 50%;
+}
+header{
+    margin: 20px 30px 0 20px;
+}
+.link-header{
+    color: #989D9C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.but-log{
+    color: #FFF;
+    background-color:#665AE1 ;
+    width: 110px;
+    height: 41px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+img{
+    width: 468px;
+    height: 394px;
+    margin: 128px 89px;
+}
+
+.cont-dirt {
+    display: inline-block;
+    width: 50%;
+    height:100%;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+}
+
+h1{
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+}
+h2{
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+}
+.sai{
+    color: #848484;
+    font-size: 20px;
+    font-weight: 400;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.but-exp {
+    color: black;
+    background-color: #ADFF00;;
+    width: 196px;
+    height: 44px;
+    border-radius: 36px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:800px) {
+    main{
+        margin: 0;
+        padding: 0;
+    }
+    .cont-esq{
+        width: 100%;
+        height: auto;
+    }
+    header{
+        display: none;
+    }
+    img{
+        width: 65%;
+        height: auto;
+        margin-left: 18%;
+    }
+
+    .cont-dirt{
+        display: block;
+        position: static;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        
+    }
+    h1{
+        width: 100%;
+        height: auto;
+        font-size: 40px;
+        margin-top: -19%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .sai{
+        display: none;
+    }
+}
+
